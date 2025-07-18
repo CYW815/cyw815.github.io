@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>결론 - Team1 Coffee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gradient-to-b from-amber-50 to-amber-200 min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="bg-amber-800 text-white shadow-md sticky top-0 z-40">
+      <div class="container mx-auto px-4 py-4">
+        <div class="flex justify-between items-center">
+          <h1 class="text-xl font-bold">Team1 Coffee</h1>
+          <div class="flex space-x-6">
+            <a href="index.html" class="hover:text-amber-300 transition">개요</a>
+            <a href="planning.html" class="hover:text-amber-300 transition">기획&설계</a>
+            <a href="implementation.html" class="hover:text-amber-300 transition">구현</a>
+            <a href="conclusion.html" class="text-amber-300 font-semibold">결론</a>
+            <a href="team.html" class="hover:text-amber-300 transition">팀</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-amber-900 text-white py-16 flex flex-col items-center justify-center shadow-lg">
+      <h1 class="text-4xl font-extrabold mb-4 drop-shadow-lg">결론</h1>
+      <p class="text-lg mb-8 max-w-2xl text-center">프로젝트 회고와 향후 개선 방향</p>
+    </section>
+
+    <main class="flex-1 container mx-auto px-4 py-10 space-y-16">
+      <!-- 향후 개선방안 -->
+      <section>
+        <h2 class="text-3xl font-bold mb-6 text-amber-900 border-b-4 border-amber-400 inline-block">향후 개선방안</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">💳</div>
+            <h3 class="font-semibold text-amber-800 mb-3">결제 시스템 연동</h3>
+            <p class="text-amber-700">PG사 연동을 통한 안전한 결제 시스템 구축</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">👥</div>
+            <h3 class="font-semibold text-amber-800 mb-3">회원 등급 시스템</h3>
+            <p class="text-amber-700">등급별 혜택과 포인트 적립 시스템 구현</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">💬</div>
+            <h3 class="font-semibold text-amber-800 mb-3">실시간 채팅</h3>
+            <p class="text-amber-700">고객 상담을 위한 실시간 채팅 기능 추가</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">📱</div>
+            <h3 class="font-semibold text-amber-800 mb-3">모바일 앱 개발</h3>
+            <p class="text-amber-700">React Native를 활용한 네이티브 앱 개발</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">📊</div>
+            <h3 class="font-semibold text-amber-800 mb-3">데이터 분석</h3>
+            <p class="text-amber-700">고객 행동 분석을 통한 개인화 서비스</p>
+          </div>
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">🌐</div>
+            <h3 class="font-semibold text-amber-800 mb-3">다국어 지원</h3>
+            <p class="text-amber-700">국제화를 위한 다국어 서비스 제공</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 회고 -->
+      <section>
+        <h2 class="text-3xl font-bold mb-6 text-amber-900 border-b-4 border-amber-400 inline-block">회고</h2>
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-2xl font-semibold text-amber-800 mb-4">배운 점</h3>
+              <ul class="text-amber-700 space-y-3">
+                <li>• 팀 협업과 의사소통의 중요성</li>
+                <li>• 사용자 중심의 UI/UX 설계</li>
+                <li>• 반응형 웹 개발의 실제 적용</li>
+                <li>• 데이터베이스 설계와 최적화</li>
+                <li>• 프로젝트 관리와 일정 조율</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-2xl font-semibold text-amber-800 mb-4">개선할 점</h3>
+              <ul class="text-amber-700 space-y-3">
+                <li>• 초기 기획 단계에서 더 세밀한 분석</li>
+                <li>• 테스트 코드 작성의 중요성</li>
+                <li>• 성능 최적화에 대한 고려</li>
+                <li>• 보안 관련 사항 검토</li>
+                <li>• 문서화의 체계화</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="mt-8 p-6 bg-amber-50 rounded-lg">
+            <h3 class="text-xl font-semibold text-amber-800 mb-3">전체적인 소감</h3>
+            <p class="text-amber-700 leading-relaxed">
+              이번 프로젝트를 통해 팀원들과의 협업, 기획부터 배포까지의 전 과정을 경험할 수 있었고, 
+              실무에서의 웹 개발 역량을 한층 더 성장시킬 수 있었습니다. 
+              특히 사용자 경험을 고려한 디자인과 실제 구현 과정에서 발생하는 문제들을 해결하면서 
+              개발자로서의 실력을 향상시킬 수 있었습니다. 
+              앞으로도 지속적인 학습과 개선을 통해 더 나은 서비스를 제공할 수 있도록 노력하겠습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 프로젝트 완료 -->
+      <section class="text-center">
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="text-6xl mb-4">🎉</div>
+          <h2 class="text-3xl font-bold text-amber-800 mb-4">프로젝트 완료!</h2>
+          <p class="text-lg text-amber-700 mb-6">Team1 Coffee 프로젝트가 성공적으로 완료되었습니다.</p>
+          <div class="flex justify-center space-x-4">
+            <a href="index.html" class="px-6 py-3 bg-amber-800 text-white rounded-full hover:bg-amber-700 transition">처음으로 돌아가기</a>
+            <a href="mailto:team1@coffee.com" class="px-6 py-3 bg-amber-100 text-amber-800 rounded-full hover:bg-amber-200 transition">문의하기</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-amber-100 py-4 text-center">
+      &copy; 2025 Team1 Coffee. All rights reserved.
+    </footer>
+  </body>
+</html> 
